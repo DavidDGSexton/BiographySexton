@@ -6,9 +6,17 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-    	<Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label 
+            Text="David IS SICK AS H*CK" 
+            TextColor="NavajoWhite"
+            
+            BackgroundColor="Blue"
+            HorizontalTextAlignment="Center"
+            FontSize="50"
+         />
+
+
+
     </StackLayout>
 
 </ContentPage>
