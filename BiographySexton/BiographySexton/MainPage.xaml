@@ -4,8 +4,20 @@
              xmlns:local="clr-namespace:BiographySexton"
              x:Class="BiographySexton.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
+    <Grid Padding="15" ColumnSpacing="5" RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
         <Label 
             Text="David IS SICK AS H*CK" 
             TextColor="NavajoWhite"
@@ -17,6 +29,6 @@
 
 
 
-    </StackLayout>
+    </Grid>
 
 </ContentPage>
