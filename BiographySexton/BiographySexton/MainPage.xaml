@@ -4,7 +4,8 @@
              xmlns:local="clr-namespace:BiographySexton"
              x:Class="BiographySexton.MainPage">
 
-    <Grid ColumnSpacing="5" RowSpacing="10">
+    <Grid ColumnSpacing="5" RowSpacing="10" BackgroundColor="White">
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
@@ -22,16 +23,6 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <Frame
-            Grid.Row="0" 
-            Grid.Column="0"
-            Grid.ColumnSpan="5"
-            Grid.RowSpan="8"     
-            
-            BackgroundColor="White"
-            
-  
-        />
 
 
         <Frame 
