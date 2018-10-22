@@ -14,9 +14,9 @@ namespace BiographySexton
 			InitializeComponent();
 		}
 
-        private void navigationButton_Clicked(object sender, EventArgs e)
+        private void homeaboutButton_Clicked(object sender, EventArgs e)
         {
-           Navigation.PushAsync(new Page1());
+            Navigation.PushAsync(new Page1());
         }
     }
 }

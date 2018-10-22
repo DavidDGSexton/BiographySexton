@@ -71,7 +71,8 @@
             TextColor="White"
             Font="36" 
            
-            
+           x:Name="homeaboutButton" 
+           Clicked="homeaboutButton_Clicked"
             
         />
         <Frame
